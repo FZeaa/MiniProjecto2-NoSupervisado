@@ -1,0 +1,43 @@
+# ── Virtual environment ───────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Jupyter Notebook ──────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+# Uncomment below to ignore notebook outputs (cell results, plots, etc.)
+# *.ipynb
+
+# ── Trained model files ───────────────────────────────────────────────────────
+# Joblib/pickle model artifacts can be large; regenerate from the notebook
+model/*.joblib
+model/*.pkl
+model/*.pickle
+
+# ── Data files ────────────────────────────────────────────────────────────────
+# The xlsx dataset is ~3 MB — exclude if it's too large or sensitive
+# datos_miniproyecto2.xlsx
+*.csv
+
+# ── OS & editor artifacts ─────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── Environment variables / secrets ───────────────────────────────────────────
+.env
+*.env

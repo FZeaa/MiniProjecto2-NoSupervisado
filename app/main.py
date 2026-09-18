@@ -54,7 +54,6 @@ if st.button('Clasificar'):
             # El pipeline ya ejecuta text_preprocess internamente, 
             # solo necesitamos pasarle el texto en crudo
             prediction = model.predict([text_input])
-            st.write(f"El texto pertenece al ODS {prediction[0]}")
             ods_num = prediction[0]
             ods_name = ods_nombres.get(ods_num, "Desconocido")
             st.success(f"El texto pertenece al **ODS {ods_num}: {ods_name}**")

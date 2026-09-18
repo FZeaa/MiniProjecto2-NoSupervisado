@@ -21,7 +21,7 @@ build/
 
 # ── Trained model files ───────────────────────────────────────────────────────
 # Joblib/pickle model artifacts can be large; regenerate from the notebook
-model/*.joblib
+# model/*.joblib
 model/*.pkl
 model/*.pickle
 
